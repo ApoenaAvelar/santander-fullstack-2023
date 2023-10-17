@@ -3,6 +3,8 @@ spring:
     url: jdbc:h2:mem:sfs2023
     username: sfs2023
     password:
+  main:
+    allow-bean-definition-overriding: true
   jpa:
     show-sql: true
     open-in-view: false
